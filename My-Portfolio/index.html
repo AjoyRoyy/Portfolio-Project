@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajoy Ray</title>
+    <!-- STYLE sheets -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/13b0aada73.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/Logo.png" alt="logo_Image" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header_text">
+          <h1>
+            Hi, I'm <span>Ajoy</span> Ray<br />
+            from Bangladesh
+          </h1>
+          <p>FULL STACK WEB DEVELOPER</p>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------ About------------------ -->
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="Images/user.png" /></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is Ajoy Ray, I am a Full Stack Web Developer and Web
+              Designer. An Open Source enthusiast and a Computer Science student
+              at Hajee Mohammad Danesh Science and Technology University from
+              Bangladesh. I love working on new and exciting technologies
+              emerging nowadays. I have good experience as a MERN Stack
+              Developer.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>TECH I'M EXPERIENCED WITH:</span><br />
+                  <br />
+                  HTML5, CSS3, REACT.JS, Express.js, Javascript, MongoDB,
+                  Node.js
+                </li>
+                <li>
+                  <br />
+                  <br />
+                  <span>TECH I'M FAMILIAR WITH:</span><br />
+                  <br />
+                  Bootstrap, JQUERY, GitHub, MySQL, Tailwind CSS, Firebase, C,
+                  Redux, C++, Python.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Experience">
+              <ul>
+                <li>
+                  <span>Full Stack Web Developer</span><br />Fiverr -
+                  Freelancing <br />
+                  Debugged, designed and developed website for clients in
+                  marketplaces. <br />
+                  June 2021 - August 2022
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Education">
+              <ul>
+                <li>
+                  <span
+                    >Bachelor's Degree in Computer Science & Engineering</span
+                  ><br />Hajee Mohammad Danesh Science and Technology University
+                  <br /><b>Jan 2018- Present</b>
+                </li>
+                <li>
+                  <span>Higher Secondary Certificate</span><br />Salimuddin
+                  Chowdhary University College <br />
+                  <b>2016, GPA: 4.67</b>
+                </li>
+                <li>
+                  <span>Secondary School Certificate</span><br />Kanchan Bharat
+                  Chandra High School <br />
+                  <b>2014, GPA: 5.00</b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------services----------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I am a Full Stack Web Developer (MERN) and have quite some
+              experience in it as well..
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>
+              I love designs and it's the first step before creating any website
+              as I can give layout to my imagination.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Problem Solving</h2>
+            <p>
+              I love solving problems whether programming problems or real life
+              problems.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------portfolio----------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="Images/work-1.png" />
+            <div class="layer">
+              <h3>Social-Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium deleniti, quae debitis velit quibusdam quaerat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work-2.png" />
+            <div class="layer">
+              <h3>Social-Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium deleniti, quae debitis velit quibusdam quaerat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work-3.png" />
+            <div class="layer">
+              <h3>Social-Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium deleniti, quae debitis velit quibusdam quaerat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- -------------------Contact-------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> ajoy.roy.hstu18@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> +8801772364600</p>
+            <div class="social-icon">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="e-mail"
+                name="E-mail"
+                placeholder="Your E-mail"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @Ajoy. All Rights Reserved <span>&copy</span>.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxMGBP9GveQeLsg7L3oVxpFedp0a1zp8uHyUN7fgm8wbMXzpJdyvEqKRNHJd_G5wW20/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 4000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
